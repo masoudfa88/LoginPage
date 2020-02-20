@@ -1,0 +1,71 @@
+
+
+
+body , html {
+
+    font-family: "Fira Sans", sans-serif;
+    width: 100%;
+    height: 100%;
+    background-image: url('./bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.fname {
+    text-align: right;
+    background-color: transparent;
+    border-left-color: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: url(./1.png) no-repeat scroll 3px 4px;
+    padding-left: 30px;
+}
+
+.pass {
+    text-align: right;
+    background-color: transparent;
+    border-left-color: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    background: url(./2.png) no-repeat scroll 3px 4px;
+    padding-left: 35px;
+}
+
+.box {
+    margin: auto;
+    text-align: center;
+}
+
+::placeholder {
+    color: white;
+    size: 5px;
+}
+
+.button {
+    color: white;
+    background-color: dodgerblue;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    padding: 10px 95px;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+.remember {
+    color: white;
+    
+    /* margin-left: 1000px; */
+    /* text-align: left; */
+    /* float: left; */
+    
+}
+
+
+
